@@ -13,6 +13,12 @@
     ```json linenums="1"
     {"page":1,"id":42,"obj":"qrcode","text":"www.openhasp.com/0.7.0/design/objects/","x":520,"y":20,"size":200}
     ```
+![lv_qrcode](images/lv_ex_qrcode_2.png)
+
+???+ example "Example `json2` WiFi AP"
+    ```json linenums="1"
+    {"Page":1,"id":43,"obj":"qrcode","text":"WIFI:S:HASP_GUESTS;T:WPA;P:HASP_PASSWORD;;","x":260,"y":120,"size":200}
+    ```
 
 !!! note :
     The maximum text length depends on the QR code version. By default, the maximum version 7 is used, which corresponds to a maximum text length of 122 characters.
